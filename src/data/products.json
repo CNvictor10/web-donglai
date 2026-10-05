@@ -1,0 +1,2423 @@
+[
+  {
+    "id": "lum-006",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Brillante De 30W 3T",
+    "description": "Bombilla LED tipo UFO 30W, cuerpo translúcido, difusión uniforme, base estándar.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 6
+  },
+  {
+    "id": "lum-007",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Brillante De 50W 3T",
+    "description": "UFO LED 50W de cuerpo transparente para locales comerciales y oficinas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 7
+  },
+  {
+    "id": "lum-008",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Brillante De 80W 3T",
+    "description": "Alta potencia 80W, ideal para techos altos en almacenes y tiendas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 8
+  },
+  {
+    "id": "lum-009",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco UFO De 50W 3T",
+    "description": "UFO LED 50W con aro decorativo exterior, acabado premium para showrooms.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 9
+  },
+  {
+    "id": "lum-010",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco UFO De 80W 3T",
+    "description": "UFO LED 80W con aro decorativo, mayor cobertura lumínica en espacios amplios.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 10
+  },
+  {
+    "id": "lum-011",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Fluorecente LED De 80 W",
+    "description": "Barra lineal LED 80W, luz fría 6500K de alta potencia para locales comerciales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 11
+  },
+  {
+    "id": "lum-012",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Fluorecente LED De 130 W",
+    "description": "Barra industrial 130W de alta eficiencia lumínica, reemplaza tubos convencionales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 12
+  },
+  {
+    "id": "lum-013",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Fluorecente LED De 160 W",
+    "description": "Barra LED 180W de gran alcance para almacenes y naves industriales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 13
+  },
+  {
+    "id": "lum-014",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Dicroico LED 9W 3T",
+    "description": "Dicroico tricolor 9W base GU10/MR16, cambia entre 3 temperaturas de color.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 14
+  },
+  {
+    "id": "lum-015",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Dicroico LED 18W 3T Regulable",
+    "description": "Dicroico regulable 3T, 12cm diámetro, 180-220V. Ideal para espejos y vitrinas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 15
+  },
+  {
+    "id": "lum-016",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Dicroico LED 9W 3T 180°",
+    "description": "Apertura 180°, regulable 3 colores, 12cm, 180-220V. Para iluminación de acento.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 16
+  },
+  {
+    "id": "lum-017",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Dicroico 5W 3T",
+    "description": "Compacto 5W tricolor en base blanca o plateada, bajo consumo energético.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 17
+  },
+  {
+    "id": "lum-018",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Bombillo LED 5W",
+    "description": "Foco LED 5W de bajo consumo, reemplazo directo de incandescentes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 18
+  },
+  {
+    "id": "lum-019",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Bombillo LED 19W",
+    "description": "Foco TF-8070 alta eficiencia, acabado blanco, para uso residencial y comercial.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 19
+  },
+  {
+    "id": "lum-020",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Botella LED 30W",
+    "description": "Bombilla decorativa E27 30W, PC + aluminio, luz diurna 7500K tipo filamento.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 20
+  },
+  {
+    "id": "lum-021",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Botella LED 60W",
+    "description": "Bombilla E27 60W para lámparas colgantes y apliques decorativos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 21
+  },
+  {
+    "id": "lum-022",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Botella LED 100W",
+    "description": "Bombilla E27 100W alta potencia, luz diurna 7500K para grandes ambientes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 22
+  },
+  {
+    "id": "lum-023",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Bombillo Con Sensor 9W",
+    "description": "Bombillo LED 9W con sensor de movimiento infrarrojo integrado.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 23
+  },
+  {
+    "id": "lum-024",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Bombillo Con Sensor 12W",
+    "description": "Bombillo LED 12W con sensor infrarrojo de alta sensibilidad y amplio ángulo.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 24
+  },
+  {
+    "id": "lum-025",
+    "line": "Luminarias",
+    "category": "Focos LED",
+    "name": "Foco Ventilador LED 20W + Control",
+    "description": "Ventilador de techo con luz LED integrada 20W, 2 en 1 para ambientes cálidos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 25
+  },
+  {
+    "id": "lum-027",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control De 30A Para Cinta 3T",
+    "description": "Control remoto tricolor 30mAh para ajustar temperatura de color en gabinetes LED.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 27
+  },
+  {
+    "id": "lum-028",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control Rgb Bluetooth 40T",
+    "description": "Mando Bluetooth 40 teclas para tiras RGB. Amplio rango de señal inalámbrica.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 28
+  },
+  {
+    "id": "lum-029",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control Magic 23T",
+    "description": "Control Magic RF 23 teclas para tiras de color RGB, fácil programación.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 29
+  },
+  {
+    "id": "lum-030",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control Pixel Rgb Bt Hada",
+    "description": "Control 3 puertos Bluetooth para tiras PIXEL con efectos dinámicos tipo hada.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 30
+  },
+  {
+    "id": "lum-031",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control Mini De 3T",
+    "description": "Mini mando bicolor 15 teclas, compacto y de instalación sencilla.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 31
+  },
+  {
+    "id": "lum-032",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Regulador Tatil Rgb",
+    "description": "Atenuador de intensidad táctil para tiras de color RGB, diseño moderno.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 32
+  },
+  {
+    "id": "lum-033",
+    "line": "Luminarias",
+    "category": "Controles Y Reguladores",
+    "name": "Control Rgb Music",
+    "description": "Atenuador LED que sincroniza el encendido de luces al ritmo de la música.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 33
+  },
+  {
+    "id": "lum-035",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim 12V 60W 5A",
+    "description": "Fuente ultra delgada 5A, cobre puro, 12V 60W para tiras LED estándar.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 35
+  },
+  {
+    "id": "lum-036",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim 12V 100W 8.3A",
+    "description": "Fuente delgada 8.3A, 12V 100W para instalaciones LED medianas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 36
+  },
+  {
+    "id": "lum-037",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim 12V 200W 16.6A",
+    "description": "Fuente 16.6A, 12V 200W para tiras LED de alto consumo en proyectos grandes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 37
+  },
+  {
+    "id": "lum-038",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim 12V 300W 25A",
+    "description": "Fuente 25A, 12V 300W para grandes instalaciones de iluminación LED.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 38
+  },
+  {
+    "id": "lum-039",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim 12V 400W 33.3A",
+    "description": "Fuente 33.3A, 12V 400W máxima potencia en perfil ultra delgado.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 39
+  },
+  {
+    "id": "lum-040",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Lapiz 36W 3A",
+    "description": "Fuente cilíndrica extra fina 3A para perfiles LED empotrados en muebles.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 40
+  },
+  {
+    "id": "lum-041",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Lapiz 60W 5A",
+    "description": "Fuente cilíndrica 5A para espacios reducidos y perfiles LED compactos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 41
+  },
+  {
+    "id": "lum-042",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Lapiz 100W 8.3A",
+    "description": "Fuente cilíndrica alta potencia 8.3A para proyectos con mayor demanda.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 42
+  },
+  {
+    "id": "lum-043",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim Supply 24V 60W 2.5A",
+    "description": "Fuente ultra delgada 2.5A, 24V 60W especial para tiras LED de 24 voltios.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 43
+  },
+  {
+    "id": "lum-044",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim Supply 24V 100W 4.2A",
+    "description": "Fuente conmutada 4.2A, 24V 100W para instalaciones LED exigentes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 44
+  },
+  {
+    "id": "lum-045",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim Supply 24V 200W 8.3A",
+    "description": "Fuente conmutada 4.2A, 24V 100W para instalaciones LED exigentes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 45
+  },
+  {
+    "id": "lum-046",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Slim Supply 24V 300W 12.5A",
+    "description": "Fuente conmutada 4.2A, 24V 100W para instalaciones LED exigentes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 46
+  },
+  {
+    "id": "lum-047",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Cajta Blanco 12V 60W",
+    "description": "Fuente compacta tipo bornera 12V 60W para letreros y tiras pequeñas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 47
+  },
+  {
+    "id": "lum-048",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Cajta Blanco 12V 100W",
+    "description": "Fuente compacta 12V 100W para letreros luminosos y tiras medianas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 48
+  },
+  {
+    "id": "lum-049",
+    "line": "Luminarias",
+    "category": "Transformadores Y Fuentes",
+    "name": "Transformador Cajta Blanco 12V 200W",
+    "description": "Fuente ventilada 12V 200W de alta capacidad para proyectos grandes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 49
+  },
+  {
+    "id": "lum-051",
+    "line": "Luminarias",
+    "category": "Sensores E Interruptores",
+    "name": "Sensor Tactil Para Melanine 12V 3T",
+    "description": "Interruptor tricolor para espejos LED, 3A 12V, diseño empotrable elegante.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 51
+  },
+  {
+    "id": "lum-052",
+    "line": "Luminarias",
+    "category": "Sensores E Interruptores",
+    "name": "Sensor De Mano 12V",
+    "description": "Interruptor sin contacto tipo barrido manual, ideal para muebles y cocinas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 52
+  },
+  {
+    "id": "lum-053",
+    "line": "Luminarias",
+    "category": "Sensores E Interruptores",
+    "name": "Sensor Tactil Espejo Sin Hora 3T",
+    "description": "Interruptor táctil tricolor 12V para espejos iluminados, botón único.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 53
+  },
+  {
+    "id": "lum-054",
+    "line": "Luminarias",
+    "category": "Sensores E Interruptores",
+    "name": "Sensor Tactil Espejo Con Hora 3T",
+    "description": "Interruptor táctil tricolor 12V con reloj integrado para espejos LED.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 54
+  },
+  {
+    "id": "lum-055",
+    "line": "Luminarias",
+    "category": "Sensores E Interruptores",
+    "name": "Interruptor Switch Boton 220V",
+    "description": "Interruptor de balancín redondo 15mm para alimentación directa 220Vblanco o negro",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 55
+  },
+  {
+    "id": "lum-057",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Plateado 200W",
+    "description": "Panel solar autónomo serie Lobo 200W, carcasa robusta para exteriores.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 57
+  },
+  {
+    "id": "lum-058",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Plateado 300W",
+    "description": "Panel solar 300W alta potencia para grandes espacios al aire libre.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 58
+  },
+  {
+    "id": "lum-059",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Plateado 400W",
+    "description": "Panel solar 400W máxima potencia para parques y uso industrial.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 59
+  },
+  {
+    "id": "lum-060",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Nieve 100W",
+    "description": "Solar compacto 100W, alta eficiencia para jardines y vías de acceso.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 60
+  },
+  {
+    "id": "lum-061",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Nieve 200W",
+    "description": "Solar 200W con batería de larga duración para zonas sin red eléctrica.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 61
+  },
+  {
+    "id": "lum-062",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Nieve 300W",
+    "description": "Solar 300W para calles y áreas comunes con alta demanda lumínica.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 62
+  },
+  {
+    "id": "lum-063",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Lobo Nieve 400W",
+    "description": "Solar 400W de alta potencia para grandes explanadas y avenidas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 63
+  },
+  {
+    "id": "lum-064",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Reflector Estrella 300W",
+    "description": "Reflector serie Estrella 300W, diseño angular de alto rendimiento.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 64
+  },
+  {
+    "id": "lum-065",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Yaoyang 100W",
+    "description": "Panel monocristalino 100W de alta eficiencia para farolas de poste.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 65
+  },
+  {
+    "id": "lum-066",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Yaoyang 200W",
+    "description": "Panel bicristalino 200W con mayor tolerancia a luz difusa y nublada.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 66
+  },
+  {
+    "id": "lum-067",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Yaoyang 300W",
+    "description": "Panel bicristalino 300W de alta potencia para grandes avenidas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 67
+  },
+  {
+    "id": "lum-068",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Yaoyang 400W",
+    "description": "Panel bicristalino 400W máximo rendimiento para proyectos viales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 68
+  },
+  {
+    "id": "lum-069",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Boeing 100W",
+    "description": "Serie Boeing 100W bicristalino compacto para postes urbanos estándar.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 69
+  },
+  {
+    "id": "lum-070",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Boeing 200W",
+    "description": "Boeing 200W bicristalino, balance ideal entre tamaño y potencia.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 70
+  },
+  {
+    "id": "lum-071",
+    "line": "Luminarias",
+    "category": "Reflectores Y Paneles Solares",
+    "name": "Panel De Poste Boeing 300W",
+    "description": "Boeing 300W máxima cobertura en un solo panel de poste.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 71
+  },
+  {
+    "id": "lum-073",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Maguera Fcob 220V 50M",
+    "description": "Tira COB 220V alta densidad. Disponible en 7500K, 3000K, 4000K y azul.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 73
+  },
+  {
+    "id": "lum-074",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Maguera Neon 12V 50M",
+    "description": "Tubo neón LED flexible 12V, 50 metros en múltiples colores vibrantes.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 74
+  },
+  {
+    "id": "lum-075",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 240D 10M 3000K",
+    "description": "Tira LED directa a 220V, luz neutra 4000K,3000K,6500Ksin necesidad de transformador.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 75
+  },
+  {
+    "id": "lum-076",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 240D 10M 4000K",
+    "description": "Tira LED directa a 220V, luz neutra 4000K,3000K,6500Ksin necesidad de transformador.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 76
+  },
+  {
+    "id": "lum-077",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 240D 10M 6500K",
+    "description": "Tira LED directa a 220V, luz neutra 4000K,3000K,6500Ksin necesidad de transformador.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 77
+  },
+  {
+    "id": "lum-078",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED Rgb Ip20 24V 10M Pixel",
+    "description": "Tira Pixel RGB 24V con efecto chaseable, control individual de cada LED.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 78
+  },
+  {
+    "id": "lum-079",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 12V 240 LED 5M 3000K",
+    "description": "Tira LED 12V alta densidad 240 LEDs/m. Disponible en 3000K, 4000K y 6500K.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 79
+  },
+  {
+    "id": "lum-080",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 12V 240 LED 5M 4000K",
+    "description": "Tira LED 12V alta densidad 240 LEDs/m. Disponible en 3000K, 4000K y 6500K.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 80
+  },
+  {
+    "id": "lum-081",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 12V 240 LED 5M 6500K",
+    "description": "Tira LED 12V alta densidad 240 LEDs/m. Disponible en 3000K, 4000K y 6500K.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 81
+  },
+  {
+    "id": "lum-082",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta Pixel Fluido 24V Azul",
+    "description": "Efecto fluido animado en azul, dorado y blanco. 24V para instalaciones especiales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 82
+  },
+  {
+    "id": "lum-083",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta Pixel Fluido 24V Dorado",
+    "description": "Efecto fluido animado en azul, dorado y blanco. 24V para instalaciones especiales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 83
+  },
+  {
+    "id": "lum-084",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta Pixel Fluido 24V Blanco",
+    "description": "Efecto fluido animado en azul, dorado y blanco. 24V para instalaciones especiales.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 84
+  },
+  {
+    "id": "lum-085",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta Pixel Rgb USB 12V 10M",
+    "description": "Tira Pixel en gotitas con conector USB 12V, instalación plug & play.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 85
+  },
+  {
+    "id": "lum-086",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta Cob 220V 10M",
+    "description": "Rollo 10 metros COB directo a 220V, luz cálida 3000K sin parpadeo.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 86
+  },
+  {
+    "id": "lum-087",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 120D 10M 3000K",
+    "description": "Tira LED directa a 220V, luz neutra 4000K,3000K,6500Ksin necesidad de transformador.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 87
+  },
+  {
+    "id": "lum-088",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 120D 10M 4000K",
+    "description": "Tira LED SMD 2835, 24V, luz neutra 4000K. Presentación: 50 tiras (500 m).",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 88
+  },
+  {
+    "id": "lum-089",
+    "line": "Luminarias",
+    "category": "Cintas Y Mangueras LED",
+    "name": "Cinta LED 220V 120D 10M 6500K",
+    "description": "Tira LED SMD 2835, 20V, luz fría 6500K. Presentación: 50 tiras (500 m).",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 89
+  },
+  {
+    "id": "lum-091",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio Esquinero 16x16 Mm",
+    "description": "Canal de aluminio 16x16mm para esquinas. Incluye difusor. (ref. 1614)",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 91
+  },
+  {
+    "id": "lum-092",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio 15x09 Mm",
+    "description": "Canal de aluminio 15x9mm para tiras LED en superficies planas. (ref. 1509)",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 92
+  },
+  {
+    "id": "lum-093",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio Con Aleta 17x07 Mm",
+    "description": "Canal de aluminio 17x7mm perfil bajo para instalaciones discretas. (ref. 1707)",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 93
+  },
+  {
+    "id": "lum-094",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio Sin Aleta 17x07 Mm",
+    "description": "Canal de aluminio 17x7mm perfil bajo para instalaciones discretas. (ref. 1707)",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 94
+  },
+  {
+    "id": "lum-095",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio Negro 20x15 Mm",
+    "description": "Canal con acabado negro mate 20x15mm para diseños de interiores modernos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 95
+  },
+  {
+    "id": "lum-096",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Aluminio 12x12 Mm",
+    "description": "Perfil slim 12.5x12.8mm para acabados de alta gama en muebles y espejos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 96
+  },
+  {
+    "id": "lum-097",
+    "line": "Luminarias",
+    "category": "Perfiles De Aluminio",
+    "name": "Perfil Espuma Eva 1M",
+    "description": "Tira de sellado autoadhesiva para fijar cintas LED en espejos y ventanas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 97
+  },
+  {
+    "id": "lum-099",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Panel LED Empotrable 60x60 50W",
+    "description": "Panel de techo empotrable 60x60cm 50W, luz uniforme para oficinas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 99
+  },
+  {
+    "id": "lum-100",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Panel LED Adosable 60x60 60W",
+    "description": "Panel de superficie 60x60cm 60W, instalación rápida sin falso techo.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 100
+  },
+  {
+    "id": "lum-101",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Panel LED Empotrable 30x120 60W",
+    "description": "Panel lineal 30x120cm empotrable 60W, ideal para pasillos y oficinas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 101
+  },
+  {
+    "id": "lum-102",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Panel LED Adosable 30x120 60W",
+    "description": "Panel lineal de superficie 30x120cm 60W, sin necesidad de obra.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 102
+  },
+  {
+    "id": "lum-103",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Plafon Redondo LED 18W 3T",
+    "description": "Plafón superficial circular 18W, ajustable en 3 temperaturas de color.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 103
+  },
+  {
+    "id": "lum-104",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Plafon Redondo LED 20W 3T",
+    "description": "Plafón circular 20W tricolor para habitaciones y tiendas.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 104
+  },
+  {
+    "id": "lum-105",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Plafon Redondo LED 36W 3T",
+    "description": "Plafón redondo 36W mayor cobertura, ideal para salas y locales medianos.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 105
+  },
+  {
+    "id": "lum-106",
+    "line": "Luminarias",
+    "category": "Paneles Y Plafones LED",
+    "name": "Plafon Redondo LED 48W 3T",
+    "description": "Plafón 48W alta potencia, 3 temperaturas ajustables. Para showrooms.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 106
+  },
+  {
+    "id": "lum-108",
+    "line": "Luminarias",
+    "category": "Accesorios Eléctricos",
+    "name": "Enchufe Negro",
+    "description": "Enchufe plano para conexión directa a 220V, modelo 323, uso residencial.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 108
+  },
+  {
+    "id": "lum-109",
+    "line": "Luminarias",
+    "category": "Accesorios Eléctricos",
+    "name": "Conector Fcob 220V",
+    "description": "Adaptador enchufe para conexión rápida de tiras FCOB a fuente de 20V.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 109
+  },
+  {
+    "id": "lum-110",
+    "line": "Luminarias",
+    "category": "Accesorios Eléctricos",
+    "name": "Luz De Emergencia Manti 18W",
+    "description": "Luz de emergencia LED con doble cabezal orientable, 18W, batería recargable.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 110
+  },
+  {
+    "id": "lum-111",
+    "line": "Luminarias",
+    "category": "Accesorios Eléctricos",
+    "name": "Luz De Emergencia Faro 20W",
+    "description": "Luz de emergencia LED con doble cabezal orientable, 20W, mayor autonomía.",
+    "sourceSheet": "LUMINARIAS",
+    "sourceRow": 111
+  },
+  {
+    "id": "fer-006",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Negro 18x22",
+    "description": "Tirador estilo dedo acabado negro mate, medida 18x22mm para muebles.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 6
+  },
+  {
+    "id": "fer-007",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Acero 18x22",
+    "description": "Tirador tipo dedo en acero inoxidable cepillado 18x22mm, alta durabilidad.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 7
+  },
+  {
+    "id": "fer-008",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Dorado 18x22",
+    "description": "Tirador dedo acabado dorado champagne 18x22mm para muebles de lujo.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 8
+  },
+  {
+    "id": "fer-009",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Negro 20x25",
+    "description": "Tirador dedo negro en talla mayor 20x25mm para puertas y cajones grandes.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 9
+  },
+  {
+    "id": "fer-010",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Acero 20x25",
+    "description": "Tirador acero inoxidable 20x25mm de mayor resistencia y elegancia.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 10
+  },
+  {
+    "id": "fer-011",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador Dedo Dorado 20x25",
+    "description": "Acabado dorado en talla 20x25mm para muebles de alta gama.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 11
+  },
+  {
+    "id": "fer-012",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador De Tina 64Mm",
+    "description": "Tirador para cajón entredistancia 64mm, perfil clásico y versátil.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 12
+  },
+  {
+    "id": "fer-013",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador De Tina 96Mm",
+    "description": "Tirador metálico entredistancia 96mm para cajones medianos de cocina.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 13
+  },
+  {
+    "id": "fer-014",
+    "line": "Ferretería y accesorios",
+    "category": "Tiradores",
+    "name": "Tirador De Tina 128Mm",
+    "description": "Tirador para cajones anchos, entredistancia 128mm, fácil agarre.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 14
+  },
+  {
+    "id": "fer-016",
+    "line": "Ferretería y accesorios",
+    "category": "Cierres Push Y Pestillos",
+    "name": "Pestillo Push Palito Empotrado",
+    "description": "Cierre push palito empotrado para puertas de mueble, instalación oculta.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 16
+  },
+  {
+    "id": "fer-017",
+    "line": "Ferretería y accesorios",
+    "category": "Cierres Push Y Pestillos",
+    "name": "Push Grueso Adosable",
+    "description": "Cerradura push de perfil grueso para puertas con bisagra exterior.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 17
+  },
+  {
+    "id": "fer-018",
+    "line": "Ferretería y accesorios",
+    "category": "Cierres Push Y Pestillos",
+    "name": "Push Delgado Adosable",
+    "description": "Push de perfil delgado para carpintería de diseño minimalista.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 18
+  },
+  {
+    "id": "fer-020",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante 555 Azul",
+    "description": "Guante nylon con palma PU azul. Alta sensibilidad táctil y destreza.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 20
+  },
+  {
+    "id": "fer-021",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante Blanco Palma Azul S518",
+    "description": "Guante blanco con palma antideslizante azul para uso general.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 21
+  },
+  {
+    "id": "fer-022",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante N528 Rojo/Negro",
+    "description": "Guante bicolor con palma negra reforzada para trabajos de agarre.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 22
+  },
+  {
+    "id": "fer-023",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante F558 Azul",
+    "description": "Guante azul con recubrimiento PU completo de mayor protección.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 23
+  },
+  {
+    "id": "fer-024",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante 966 Naranja",
+    "description": "Guante de protección reforzada para trabajos de alta exigencia física.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 24
+  },
+  {
+    "id": "fer-025",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante Negro S518 Nylon",
+    "description": "Guante nylon negro ligero para trabajos de precisión y manipulación.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 25
+  },
+  {
+    "id": "fer-026",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante A688",
+    "description": "Guante multipropósito con palma rugosa antideslizante para talleres.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 26
+  },
+  {
+    "id": "fer-027",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante PU Gris",
+    "description": "Guante de poliuretano gris alta sensibilidad para industria liviana.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 27
+  },
+  {
+    "id": "fer-028",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante 518 Naranja Antideslizante",
+    "description": "Guante naranja alta visibilidad con palma texturizada para obras.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 28
+  },
+  {
+    "id": "fer-029",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante Cuero Gold",
+    "description": "Guante de cuero resistente para trabajos pesados y soldadura.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 29
+  },
+  {
+    "id": "fer-030",
+    "line": "Ferretería y accesorios",
+    "category": "Guantes De Seguridad",
+    "name": "Guante Anti-Corte Cat-5 PU Nivel 9",
+    "description": "Máxima protección anti-corte nivel 9 con recubrimiento PU integral.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 30
+  },
+  {
+    "id": "fer-032",
+    "line": "Ferretería y accesorios",
+    "category": "Chalecos De Seguridad",
+    "name": "Chaleco Reflectivo Con Cierre",
+    "description": "Chaleco naranja/verde con cierre, alta visibilidad para obras y vías.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 32
+  },
+  {
+    "id": "fer-033",
+    "line": "Ferretería y accesorios",
+    "category": "Chalecos De Seguridad",
+    "name": "Chaleco Reflectivo Sin Cierre",
+    "description": "Chaleco reflectivo básico sin cierre, ligero y económico para obras.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 33
+  },
+  {
+    "id": "fer-035",
+    "line": "Ferretería y accesorios",
+    "category": "Pistones De Gas",
+    "name": "Pistón Gas 60N",
+    "description": "Amortiguador de gas 60N para muebles pequeños. Apertura suave.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 35
+  },
+  {
+    "id": "fer-036",
+    "line": "Ferretería y accesorios",
+    "category": "Pistones De Gas",
+    "name": "Pistón Gas 8\" 80-100N",
+    "description": "8 pulgadas 80-100N. Estándar para puertas de cocina, apertura silenciosa.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 36
+  },
+  {
+    "id": "fer-037",
+    "line": "Ferretería y accesorios",
+    "category": "Pistones De Gas",
+    "name": "Pistón Gas 10\" 80-120N",
+    "description": "10 pulgadas, medida universal para muebles de cocina y baño.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 37
+  },
+  {
+    "id": "fer-038",
+    "line": "Ferretería y accesorios",
+    "category": "Pistones De Gas",
+    "name": "Pistón Gas 12\" 120-150N",
+    "description": "12 pulgadas para gabinetes pesados con cierre controlado.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 38
+  },
+  {
+    "id": "fer-039",
+    "line": "Ferretería y accesorios",
+    "category": "Pistones De Gas",
+    "name": "Pistón Gas 15\" 150N",
+    "description": "15 pulgadas reforzado 150N para uso comercial e industrial exigente.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 39
+  },
+  {
+    "id": "fer-041",
+    "line": "Ferretería y accesorios",
+    "category": "Cintas De Embalaje",
+    "name": "Cinta Embalaje 4.8Cm X 100M",
+    "description": "Rollo transparente 100 metros para embalaje estándar de paquetes.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 41
+  },
+  {
+    "id": "fer-042",
+    "line": "Ferretería y accesorios",
+    "category": "Cintas De Embalaje",
+    "name": "Cinta Embalaje 4.8Cm X 200M",
+    "description": "Rollo doble 200 metros, mayor rendimiento y menor cambio de rollo.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 42
+  },
+  {
+    "id": "fer-044",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 40x16 (1M)",
+    "description": "Tornillo para madera cabeza plana 40x16mm. Caja x1000 unidades.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 44
+  },
+  {
+    "id": "fer-045",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 40x20 (20M)",
+    "description": "Caja 20 millares: 20 cajitas x 1000 unid. Tornillo madera 40x20mm.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 45
+  },
+  {
+    "id": "fer-046",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 40x30 (20M)",
+    "description": "Caja 20 millares: 20 cajitas x 1000 unid. Para ensambles de madera.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 46
+  },
+  {
+    "id": "fer-047",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 40x50 (10M)",
+    "description": "Caja 10 millares: 20 cajitas x 500 unid. Para madera gruesa.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 47
+  },
+  {
+    "id": "fer-048",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 5x50 (3M)",
+    "description": "Caja 3 millares: 10 cajitas x 300 unid. Tornillo avellanado 5x50mm.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 48
+  },
+  {
+    "id": "fer-049",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 5x40 (3M)",
+    "description": "Caja 3 millares: 10 cajitas x 300 unid. Tornillo 5x40 para MDF.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 49
+  },
+  {
+    "id": "fer-050",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 5x60 (2.5M)",
+    "description": "Caja 2.5 millares: 10 cajitas x 250 unid. Para estructuras de madera.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 50
+  },
+  {
+    "id": "fer-051",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 5x80 (2M)",
+    "description": "Caja 2 millares: 10 cajitas x 200 unid. Para maderas gruesas y vigas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 51
+  },
+  {
+    "id": "fer-052",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 6x60 (2.5M)",
+    "description": "Caja 2.5 millares: 10 cajitas x 250 unid. Tornillo 6mm resistente.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 52
+  },
+  {
+    "id": "fer-053",
+    "line": "Ferretería y accesorios",
+    "category": "Tornillos",
+    "name": "Tornillo Madera 6x80 (2M)",
+    "description": "Caja 2 millares: 10 cajitas x 200 unid. Para ensambles estructurales.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 53
+  },
+  {
+    "id": "fer-059",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 3/4\" X 17",
+    "description": "Clavo pequeño con y sin cabeza para molduras y acabados finos.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 59
+  },
+  {
+    "id": "fer-060",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 1 1/2 \"",
+    "description": "Clavo para carpintería liviana, ideal para tableros y listones.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 60
+  },
+  {
+    "id": "fer-061",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 1\"",
+    "description": "Clavo estándar para ensamble de madera en obras de construcción general.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 61
+  },
+  {
+    "id": "fer-062",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 2\" X 14 Carpintero",
+    "description": "Clavo carpintero 3\" sin cabeza, acabado invisible en trabajos de madera.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 62
+  },
+  {
+    "id": "fer-063",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 2\" X 13 Carpintero",
+    "description": "Clavo galvanizado para estructuras de madera y encofrados.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 63
+  },
+  {
+    "id": "fer-065",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 1\" 1/4 X 15 Carpintero",
+    "description": "Clavo largo para vigas, tijerales y estructuras de madera gruesa.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 65
+  },
+  {
+    "id": "fer-066",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 2\" 1/2 X 13 Carpintero",
+    "description": "Clavo largo para vigas, tijerales y estructuras de madera gruesa.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 66
+  },
+  {
+    "id": "fer-069",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavo 4\" Construccion",
+    "description": "Clavo largo para vigas, tijerales y estructuras de madera gruesa.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 69
+  },
+  {
+    "id": "fer-072",
+    "line": "Ferretería y accesorios",
+    "category": "Clavos",
+    "name": "Clavos De Mesa Plástico 18Mm",
+    "description": "Clavos plásticos de protección para patas de mesa, bolsa 20,000 unid.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 72
+  },
+  {
+    "id": "fer-074",
+    "line": "Ferretería y accesorios",
+    "category": "Bisagras",
+    "name": "Bisagra Simple (Caja 100 Pares)",
+    "description": "Bisagra estándar para muebles lateral/central/interior. Caja 100 pares.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 74
+  },
+  {
+    "id": "fer-075",
+    "line": "Ferretería y accesorios",
+    "category": "Bisagras",
+    "name": "Bisagra Vidrio Cierre Lento (100P)",
+    "description": "Bisagra especial para puertas de vidrio con amortiguador integrado.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 75
+  },
+  {
+    "id": "fer-076",
+    "line": "Ferretería y accesorios",
+    "category": "Bisagras",
+    "name": "Bisagra Cierre Lento (Caja 100P)",
+    "description": "Bisagra con freno hidráulico, cierre suave y silencioso. Caja 100 pares.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 76
+  },
+  {
+    "id": "fer-077",
+    "line": "Ferretería y accesorios",
+    "category": "Bisagras",
+    "name": "Bisagra Cierre Lento Acero (100P)",
+    "description": "Bisagra acero inox con cierre lento, máxima durabilidad y resistencia.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 77
+  },
+  {
+    "id": "fer-079",
+    "line": "Ferretería y accesorios",
+    "category": "Chapas Y Cerraduras",
+    "name": "Chapa Para Cajón",
+    "description": "Cerradura de leva para cajones de mueble, fácil instalación.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 79
+  },
+  {
+    "id": "fer-081",
+    "line": "Ferretería y accesorios",
+    "category": "Soportes Y Colgadores",
+    "name": "Soporte Repisa Vidrio (10,000U)",
+    "description": "Soporte pasador metálico para repisas de vidrio. Caja 10,000 unid.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 81
+  },
+  {
+    "id": "fer-082",
+    "line": "Ferretería y accesorios",
+    "category": "Soportes Y Colgadores",
+    "name": "Soporte Uña Vidrio (3,000U)",
+    "description": "Soporte uña para fijar vidrio en estantes sin perforación. 3,000 unid.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 82
+  },
+  {
+    "id": "fer-083",
+    "line": "Ferretería y accesorios",
+    "category": "Soportes Y Colgadores",
+    "name": "Colgadores Para Ropero",
+    "description": "Colgadores metálicos para tubos de ropero y armarios de toda medida.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 83
+  },
+  {
+    "id": "fer-084",
+    "line": "Ferretería y accesorios",
+    "category": "Soportes Y Colgadores",
+    "name": "Soporte De Tubo - Canopla",
+    "description": "Brida soporte para tubos de ropero, instalación lateral. 2,000 unid.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 84
+  },
+  {
+    "id": "fer-086",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*150Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 3.6*150mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 86
+  },
+  {
+    "id": "fer-087",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*200Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 3.6*200mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 87
+  },
+  {
+    "id": "fer-088",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*250Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 3.6*250mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 88
+  },
+  {
+    "id": "fer-089",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*300Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 3.6*300mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 89
+  },
+  {
+    "id": "fer-090",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*400Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 3.6*400mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 90
+  },
+  {
+    "id": "fer-091",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*150Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*150mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 91
+  },
+  {
+    "id": "fer-092",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*200Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*200mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 92
+  },
+  {
+    "id": "fer-093",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*250Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*250mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 93
+  },
+  {
+    "id": "fer-094",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*300Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*300mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 94
+  },
+  {
+    "id": "fer-095",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*400Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*400mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 95
+  },
+  {
+    "id": "fer-096",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*500Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 4.8*500mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 96
+  },
+  {
+    "id": "fer-097",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 7.6*450Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 7.6*450mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 97
+  },
+  {
+    "id": "fer-098",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 7.6*530Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 7.6*530mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 98
+  },
+  {
+    "id": "fer-099",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 9*630Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 9*630mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 99
+  },
+  {
+    "id": "fer-100",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 9*780Mm Blanco",
+    "description": "Cintillo (precinto) de nylon 9*780mm, color blanco. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 100
+  },
+  {
+    "id": "fer-101",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*150Mm Negro",
+    "description": "Cintillo (precinto) de nylon 3.6*150mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 101
+  },
+  {
+    "id": "fer-102",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*200Mm Negro",
+    "description": "Cintillo (precinto) de nylon 3.6*200mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 102
+  },
+  {
+    "id": "fer-103",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*250Mm Negro",
+    "description": "Cintillo (precinto) de nylon 3.6*250mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 103
+  },
+  {
+    "id": "fer-104",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*300Mm Negro",
+    "description": "Cintillo (precinto) de nylon 3.6*300mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 104
+  },
+  {
+    "id": "fer-105",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 3.6*400Mm Negro",
+    "description": "Cintillo (precinto) de nylon 3.6*400mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 105
+  },
+  {
+    "id": "fer-106",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*150Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*150mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 106
+  },
+  {
+    "id": "fer-107",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*200Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*200mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 107
+  },
+  {
+    "id": "fer-108",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*250Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*250mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 108
+  },
+  {
+    "id": "fer-109",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*300Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*300mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 109
+  },
+  {
+    "id": "fer-110",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*400Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*400mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 110
+  },
+  {
+    "id": "fer-111",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 4.8*500Mm Negro",
+    "description": "Cintillo (precinto) de nylon 4.8*500mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 111
+  },
+  {
+    "id": "fer-112",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 7.6*450Mm Negro",
+    "description": "Cintillo (precinto) de nylon 7.6*450mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 112
+  },
+  {
+    "id": "fer-113",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 7.6*530Mm Negro",
+    "description": "Cintillo (precinto) de nylon 7.6*530mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 113
+  },
+  {
+    "id": "fer-114",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 9*630Mm Negro",
+    "description": "Cintillo (precinto) de nylon 9*630mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 114
+  },
+  {
+    "id": "fer-115",
+    "line": "Ferretería y accesorios",
+    "category": "Precintos Y Cintillos",
+    "name": "Cintillo 9*780Mm Negro",
+    "description": "Cintillo (precinto) de nylon 9*780mm, color negro. Presentación: 100 piezas/paquete.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 115
+  },
+  {
+    "id": "fer-117",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Naranja 4\"",
+    "description": "Rodillo lana 38# naranja 4\" para retoques y detalles finos.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 117
+  },
+  {
+    "id": "fer-118",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Naranja 7\"",
+    "description": "Rodillo 7\" para superficies medianas como puertas y muebles.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 118
+  },
+  {
+    "id": "fer-119",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Naranja 9\"",
+    "description": "Rodillo 9\" para paredes y superficies amplias en interiores.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 119
+  },
+  {
+    "id": "fer-120",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Naranja 12\"",
+    "description": "Rodillo 12\" para grandes superficies, aplicación rápida y pareja.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 120
+  },
+  {
+    "id": "fer-121",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Rayado 7\"",
+    "description": "Rodillo texturizado 7\" para efectos decorativos en pared.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 121
+  },
+  {
+    "id": "fer-122",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Rayado 9\"",
+    "description": "Rodillo rayado 9\" mayor cobertura con textura uniforme en paredes.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 122
+  },
+  {
+    "id": "fer-123",
+    "line": "Ferretería y accesorios",
+    "category": "Rodillos De Pintura",
+    "name": "Rodillo Pintura Rayado 12\"",
+    "description": "Rodillo rayado 12\" para grandes paños con acabado decorativo.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 123
+  },
+  {
+    "id": "fer-125",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 10\"",
+    "description": "Guía metálica extensión total para cajones pesados, 10 pulgadas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 125
+  },
+  {
+    "id": "fer-126",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 14\"",
+    "description": "Corredera 14\" para cajones profundos en cocinas y closets.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 126
+  },
+  {
+    "id": "fer-127",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 16\"",
+    "description": "Corredera 16\" para cajones de gran capacidad.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 127
+  },
+  {
+    "id": "fer-128",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 18\"",
+    "description": "Corredera 18\" para cajones extra largos en muebles de cocina.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 128
+  },
+  {
+    "id": "fer-129",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 20\"",
+    "description": "Corredera 20\" máxima extensión para cajones profundos.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 129
+  },
+  {
+    "id": "fer-130",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 22\"",
+    "description": "Corredera 22\" para muebles de gran formato.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 130
+  },
+  {
+    "id": "fer-131",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Normal Pesada 24\"",
+    "description": "Corredera 24\" la más larga de la gama estándar.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 131
+  },
+  {
+    "id": "fer-132",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Push-To-Open 14\"",
+    "description": "Corredera empuje abierto 14\", sin tirador. Apertura al presionar.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 132
+  },
+  {
+    "id": "fer-133",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Push-To-Open 16\"",
+    "description": "Push-to-open 16\" para diseños minimalistas sin herraje visible.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 133
+  },
+  {
+    "id": "fer-134",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Push-To-Open 18\"",
+    "description": "Push-to-open 18\" para cajones medianos en cocinas modernas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 134
+  },
+  {
+    "id": "fer-135",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Push-To-Open 20\"",
+    "description": "Push-to-open 20\" de gran extensión sin tirador.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 135
+  },
+  {
+    "id": "fer-136",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Cierre Lento 12\"",
+    "description": "Guía con amortiguador hidráulico 12\", cierre suave y silencioso.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 136
+  },
+  {
+    "id": "fer-137",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Cierre Lento 14\"",
+    "description": "Cierre lento 14\" para cajones de uso frecuente.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 137
+  },
+  {
+    "id": "fer-138",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Cierre Lento 16\"",
+    "description": "Cierre lento 16\" con rodamiento de alta durabilidad.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 138
+  },
+  {
+    "id": "fer-139",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Cierre Lento 18\"",
+    "description": "Cierre lento 18\" con freno hidráulico para muebles de alta gama.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 139
+  },
+  {
+    "id": "fer-140",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Cierre Lento 20\"",
+    "description": "Cierre lento 20\" la más completa de la gama premium.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 140
+  },
+  {
+    "id": "fer-141",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Liviana 35Mm X 12\"",
+    "description": "Guía ligera 12\" para cajones pequeños y de poco peso.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 141
+  },
+  {
+    "id": "fer-142",
+    "line": "Ferretería y accesorios",
+    "category": "Correderas Para Cajones",
+    "name": "Corredera Liviana 35Mm X 14\"",
+    "description": "Corredera liviana 14\" para muebles de dormitorio y oficina.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 142
+  },
+  {
+    "id": "fer-144",
+    "line": "Ferretería y accesorios",
+    "category": "Pegamentos",
+    "name": "Pegamento Super Glue Amarillo",
+    "description": "Super glue 502 amarillo multiusos, secado ultra rápido en segundos.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 144
+  },
+  {
+    "id": "fer-145",
+    "line": "Ferretería y accesorios",
+    "category": "Pegamentos",
+    "name": "Pegamento Super Glue Verde",
+    "description": "Super glue 502 verde fórmula reforzada, mayor resistencia al esfuerzo.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 145
+  },
+  {
+    "id": "fer-146",
+    "line": "Ferretería y accesorios",
+    "category": "Pegamentos",
+    "name": "Pegamento Super Glue Azul Zy168 X3",
+    "description": "Pack triple alta adhesión, ideal para plásticos, metales y cerámica.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 146
+  },
+  {
+    "id": "fer-147",
+    "line": "Ferretería y accesorios",
+    "category": "Pegamentos",
+    "name": "Pegamento Super Glue Naranja",
+    "description": "Super glue 502 transparente, adhesión fuerte sin dejar marca visible.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 147
+  },
+  {
+    "id": "fer-149",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Barra Ovalada Galvanizada",
+    "description": "Barra perchero ovalada galvanizada anti-óxido. 240 unidades x caja.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 149
+  },
+  {
+    "id": "fer-150",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Hierro Fundido Galvanizado",
+    "description": "Cerrojo hierro fundido galvanizado, alta resistencia a la corrosión.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 150
+  },
+  {
+    "id": "fer-151",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Cromado Manual 3\"",
+    "description": "Cerrojo deslizante cromado 3\" para puertas interiores y ventanas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 151
+  },
+  {
+    "id": "fer-152",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Cromado Manual 4\"",
+    "description": "Cerrojo deslizante cromado 4\" para puertas exteriores o corredizas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 152
+  },
+  {
+    "id": "fer-153",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Resorte Cromado 3\"",
+    "description": "Cerrojo de muelle 3\" con retorno automático al soltar.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 153
+  },
+  {
+    "id": "fer-154",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Resorte Cromado 4\"",
+    "description": "Cerrojo de resorte 4\", mayor palanca para puertas pesadas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 154
+  },
+  {
+    "id": "fer-155",
+    "line": "Ferretería y accesorios",
+    "category": "Cerrojos",
+    "name": "Cerrojo Resorte Cromado 3\" (2)",
+    "description": "Cerrojo de muelle cromado 3\", retorno automático. Alta durabilidad.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 155
+  },
+  {
+    "id": "fer-157",
+    "line": "Ferretería y accesorios",
+    "category": "Otros Productos",
+    "name": "Alambre #8 Recocido",
+    "description": "Alambre recocido N°8 para construcción, amarre y trabajos generales.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 157
+  },
+  {
+    "id": "fer-160",
+    "line": "Ferretería y accesorios",
+    "category": "Otros Productos",
+    "name": "Patas Para Sofá - Box 75*100",
+    "description": "Patas plásticas universales para todo tipo de sofás y sillones.X 60und",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 160
+  },
+  {
+    "id": "fer-162",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 50Cm X04Kg",
+    "description": "Barra perchero ovalada galvanizada anti-óxido. 240 unidades x caja.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 162
+  },
+  {
+    "id": "fer-163",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 50Cm X 03Kg",
+    "description": "Cerrojo hierro fundido galvanizado, alta resistencia a la corrosión.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 163
+  },
+  {
+    "id": "fer-164",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 50Cm X 02Kg",
+    "description": "Cerrojo deslizante cromado 3\" para puertas interiores y ventanas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 164
+  },
+  {
+    "id": "fer-165",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 25Cm X 02 Kg",
+    "description": "Cerrojo deslizante cromado 4\" para puertas exteriores o corredizas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 165
+  },
+  {
+    "id": "fer-166",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 15Cm X 1.2Kg",
+    "description": "Cerrojo de muelle 3\" con retorno automático al soltar.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 166
+  },
+  {
+    "id": "fer-167",
+    "line": "Ferretería y accesorios",
+    "category": "Film",
+    "name": "Film 8Cm X 0.7 Kg :",
+    "description": "Cerrojo de resorte 4\", mayor palanca para puertas pesadas.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 167
+  },
+  {
+    "id": "fer-169",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 100 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 169
+  },
+  {
+    "id": "fer-170",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 150 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 170
+  },
+  {
+    "id": "fer-171",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 200 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 171
+  },
+  {
+    "id": "fer-172",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 250 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 172
+  },
+  {
+    "id": "fer-173",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 300 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 173
+  },
+  {
+    "id": "fer-174",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 350 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 174
+  },
+  {
+    "id": "fer-175",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 400 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 175
+  },
+  {
+    "id": "fer-176",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 500 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 176
+  },
+  {
+    "id": "fer-177",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 100 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 177
+  },
+  {
+    "id": "fer-178",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 150 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 178
+  },
+  {
+    "id": "fer-179",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 200 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 179
+  },
+  {
+    "id": "fer-180",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 250 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 180
+  },
+  {
+    "id": "fer-181",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 300 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 181
+  },
+  {
+    "id": "fer-182",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 350 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 182
+  },
+  {
+    "id": "fer-183",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 400 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 183
+  },
+  {
+    "id": "fer-184",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 500 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 184
+  },
+  {
+    "id": "fer-185",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 600 Mm Plomo",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 185
+  },
+  {
+    "id": "fer-186",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 100 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 186
+  },
+  {
+    "id": "fer-187",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 150 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 187
+  },
+  {
+    "id": "fer-188",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 200 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 188
+  },
+  {
+    "id": "fer-189",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 250 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 189
+  },
+  {
+    "id": "fer-190",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 300 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 190
+  },
+  {
+    "id": "fer-191",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 350 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 191
+  },
+  {
+    "id": "fer-192",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 400 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 192
+  },
+  {
+    "id": "fer-193",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "50 × 500 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 193
+  },
+  {
+    "id": "fer-194",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 100 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 194
+  },
+  {
+    "id": "fer-195",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 150 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 195
+  },
+  {
+    "id": "fer-196",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 200 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 196
+  },
+  {
+    "id": "fer-197",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 250 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 197
+  },
+  {
+    "id": "fer-198",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 300 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 198
+  },
+  {
+    "id": "fer-199",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 350 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 199
+  },
+  {
+    "id": "fer-200",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 400 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 200
+  },
+  {
+    "id": "fer-201",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 500 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 201
+  },
+  {
+    "id": "fer-202",
+    "line": "Ferretería y accesorios",
+    "category": "Rejillas de ventilaci?n de aluminio",
+    "name": "80 × 600 Mm Negro",
+    "description": "rejillas de malla transpirable de aluminio para armario de zapatos, ventilación de gas natural, disipación de calor, orificio transpirable.",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 202
+  },
+  {
+    "id": "fer-204",
+    "line": "Ferretería y accesorios",
+    "category": "Bandeja De Acero Inoxidable",
+    "name": "1# (1Ol) 40*28.4*11.5",
+    "description": "Contenedor de alimentos de acero inoxidable",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 204
+  },
+  {
+    "id": "fer-205",
+    "line": "Ferretería y accesorios",
+    "category": "Bandeja De Acero Inoxidable",
+    "name": "2# (7.5L) 35.4*25.2*10.8",
+    "description": "Contenedor de alimentos de acero inoxidable",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 205
+  },
+  {
+    "id": "fer-206",
+    "line": "Ferretería y accesorios",
+    "category": "Bandeja De Acero Inoxidable",
+    "name": "3# (5.5L) 31.7*22.7*10.1",
+    "description": "Contenedor de alimentos de acero inoxidable",
+    "sourceSheet": "FERRETEROS",
+    "sourceRow": 206
+  }
+]
