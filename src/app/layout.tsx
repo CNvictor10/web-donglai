@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Donglai | Importadora y abastecimiento",
   description:
     "Conectamos tu negocio con productos y proveedores del mundo. Importación, abastecimiento y acompañamiento cercano.",
+  verification: {
+    google: "Aos7Mqut0aFL-gtKM91LNVxVpdssp3PvZoC5__iDOOo",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
