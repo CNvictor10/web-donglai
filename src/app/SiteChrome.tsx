@@ -7,6 +7,24 @@ export function SiteHeader() {
     <>
       <div className="topline">
         <div className="site-width topline__inner">
+          <Link className="brand brand--topline" href="/" aria-label="Donglai, inicio">
+            <Image
+              alt=""
+              className="brand__symbol"
+              height={655}
+              priority
+              src="/logo-donglai-symbol.png"
+              width={977}
+            />
+            <Image
+              alt=""
+              className="brand__wordmark"
+              height={305}
+              priority
+              src="/logo-donglai-wordmark.png"
+              width={973}
+            />
+          </Link>
           <div className="topline__details">
             <span className="topline__item topline__ruc">
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3.5h7l4 4v13H7z" /><path d="M14 3.5v4h4M10 12h5M10 16h5" /></svg>
@@ -36,24 +54,6 @@ export function SiteHeader() {
       </div>
       <header className="site-header">
         <div className="site-width header__inner">
-          <Link className="brand" href="/" aria-label="Donglai, inicio">
-            <Image
-              alt=""
-              className="brand__symbol"
-              height={655}
-              priority
-              src="/logo-donglai-symbol.png"
-              width={977}
-            />
-            <Image
-              alt=""
-              className="brand__wordmark"
-              height={305}
-              priority
-              src="/logo-donglai-wordmark.png"
-              width={973}
-            />
-          </Link>
           <nav className="main-nav" aria-label="Navegación principal">
             <Link href="/">Inicio</Link>
             <Link href="/catalogo">Catálogo</Link>

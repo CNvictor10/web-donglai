@@ -30,21 +30,18 @@ export default function Home() {
       <section className="hero" id="inicio">
         <div className="site-width hero__grid">
           <div className="hero__copy">
-            <p className="eyebrow"><span className="eyebrow__line" /> Ferretería, accesorios y luminaria</p>
-            <h1>Los detalles que<br /><em>completan tu proyecto.</em></h1>
+            <p className="eyebrow"><span className="eyebrow__line" /> IMPORTACIONES PARA EL PERÚ</p>
+            <h1>Soluciones para<br /><em>cada proyecto.</em></h1>
             <p className="hero__description">
-              Explora {products.length} productos organizados por línea y rubro. Revisa cada descripción, busca por especificación y consulta disponibilidad.
+              Herrajes para muebles, accesorios ferreteros y luminarias para distribuidores, contratistas, carpinteros y especialistas.
             </p>
             <div className="hero__actions">
-              <Link className="button button--accent" href="/catalogo">Explorar catálogo <span aria-hidden="true">↗</span></Link>
-              <a className="text-link" href="#nosotros">Conoce Donglai <span aria-hidden="true">→</span></a>
+              <Link className="button button--accent" href="/catalogo">Ver catálogo <span aria-hidden="true">↗</span></Link>
+              <a className="text-link" href="#nosotros">Conoce nuestra historia <span aria-hidden="true">→</span></a>
             </div>
-            <div className="hero__note"><span className="hero__note-dot" /> Catálogo sin precios públicos</div>
+            <div className="hero__note"><span className="hero__note-dot" /> 269 productos · Atención directa</div>
           </div>
-          <div className="hero__visual" role="img" aria-label="Centro de distribución con mercadería preparada para despacho">
-            <div className="hero__visual-label"><span>01 / 03</span><span>Del origen a tu negocio</span></div>
-            <div className="hero__stamp"><span>IMPORTAMOS</span><strong>con<br />propósito</strong><span>ORIGEN A DESTINO</span></div>
-          </div>
+          <div className="hero__visual" role="img" aria-label="Logo DONGLAI sobre una escena de importación marítima en un puerto de contenedores" />
           <div className="hero__index" aria-hidden="true">DL — 001</div>
         </div>
       </section>
@@ -106,9 +103,13 @@ export default function Home() {
             <span className="about__visual-index">D / ORIGEN</span>
           </div>
           <div className="about__copy">
-            <p className="eyebrow"><span className="eyebrow__line" /> Referencias para tus proyectos</p>
-            <h2>Encuentra la pieza<br />que estás buscando.</h2>
-            <p className="about__text">Revisa opciones de tiradores, correderas, bisagras, accesorios ferreteros y luminaria. Cada producto incluye la descripción disponible para ayudarte a comparar referencias.</p>
+            <p className="eyebrow"><span className="eyebrow__line" /> Familia Donglai</p>
+            <h2>Una familia que impulsa<br />la industria peruana.</h2>
+            <div className="about__text">
+              <p><strong>En DONGLAI</strong>, más que una empresa importadora, somos una familia comprometida con el desarrollo, la innovación y el crecimiento de la industria ferretera, la carpintería y la construcción en el Perú. Nacimos con la visión de conectar de forma directa la fabricación internacional con el mercado local, garantizando productos de alto rendimiento, eficiencia energética y durabilidad para cada uno de los proyectos de nuestros clientes.</p>
+              <p>Desde nuestra sede de distribución en Villa El Salvador (Lima), la <strong>Familia Donglai</strong> trabaja con pasión para ofrecer un portafolio integral que abarca desde luminarias de última tecnología —como paneles LED, focos UFO, reflectores y tiras de luz— hasta componentes esenciales de cerrajería y herrajes para muebles, incluyendo bisagras de cierre suave, pistones a gas, correderas telescópicas y tornillería especializada.</p>
+              <p>Nos diferencia nuestro compromiso con la calidad y la atención personalizada. Entendemos las exigencias del mercado técnico y comercial, por lo que respaldamos a cada distribuidor, contratista y maestro especialista con asesoría directa, stock garantizado y cotizaciones transparentes orientadas a optimizar sus costos e inversiones. En la <strong>Familia Donglai</strong>, la confianza de nuestros clientes es nuestro activo más valioso.</p>
+            </div>
             <Link className="text-link text-link--dark" href="/catalogo">Explorar el catálogo <span aria-hidden="true">→</span></Link>
             <div className="about__signature"><span className="about__signature-line" /><span>{products.length} productos organizados por rubro</span></div>
           </div>
