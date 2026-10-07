@@ -1,7 +1,6 @@
 import Link from "next/link";
-import products from "@/data/products.json";
-
-type Product = (typeof products)[number];
+import Image from "next/image";
+import { getCatalogProducts, type CatalogProduct } from "@/data/catalogProducts";
 
 function ProductTrack({
   label,
@@ -9,7 +8,7 @@ function ProductTrack({
   reverse = false,
 }: {
   label: string;
-  items: Product[];
+  items: CatalogProduct[];
   reverse?: boolean;
 }) {
   const duration = Math.max(440, Math.round(items.length * 4.5));
@@ -26,26 +25,43 @@ function ProductTrack({
             className="product-marquee__group"
             key={`${label}-${copy}`}
           >
-            {items.map((product) => (
-              <li className="product-marquee__item" key={`${copy}-${product.id}`}>
-                {copy === 0 ? (
-                  <Link
-                    aria-label={`${product.name}, ${product.category}. Ver en el catálogo.`}
-                    href={`/catalogo?q=${encodeURIComponent(product.name)}`}
-                  >
+            {items.map((product) => {
+              const content = (
+                <>
+                  <span className="product-marquee__thumb" aria-hidden="true">
+                    {product.image && (
+                      <Image
+                        alt=""
+                        className="product-marquee__image"
+                        height={64}
+                        src={product.image}
+                        width={64}
+                      />
+                    )}
+                  </span>
+                  <span className="product-marquee__item-copy">
                     <span>{label}</span>
                     <strong>{product.name}</strong>
                     <small>{product.category}</small>
-                  </Link>
-                ) : (
-                  <div>
-                    <span>{label}</span>
-                    <strong>{product.name}</strong>
-                    <small>{product.category}</small>
-                  </div>
-                )}
-              </li>
-            ))}
+                  </span>
+                </>
+              );
+
+              return (
+                <li className="product-marquee__item" key={`${copy}-${product.id}`}>
+                  {copy === 0 ? (
+                    <Link
+                      aria-label={`${product.name}, ${product.category}. Ver en el catálogo.`}
+                      href={`/catalogo?q=${encodeURIComponent(product.variants[0]?.name ?? product.name)}`}
+                    >
+                      {content}
+                    </Link>
+                  ) : (
+                    <div>{content}</div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         ))}
       </div>
@@ -54,10 +70,11 @@ function ProductTrack({
 }
 
 export default function ProductMarquee() {
-  const hardwareProducts = products.filter(
+  const catalogProducts = getCatalogProducts();
+  const hardwareProducts = catalogProducts.filter(
     (product) => product.line === "Ferretería y accesorios",
   );
-  const lightingProducts = products.filter(
+  const lightingProducts = catalogProducts.filter(
     (product) => product.line === "Luminarias",
   );
 
@@ -77,7 +94,7 @@ export default function ProductMarquee() {
         <ProductTrack label="Luminarias" items={lightingProducts} reverse />
       </div>
       <p className="site-width product-marquee__note">
-        {products.length} productos en movimiento lento · Selecciona una ficha para verla en el catálogo
+        {catalogProducts.length} productos en movimiento lento · Selecciona una ficha para verla en el catálogo
       </p>
     </section>
   );

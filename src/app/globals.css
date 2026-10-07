@@ -535,7 +535,7 @@ a:focus-visible {
   background-image: url("/hero-donglai.jpg");
   background-position: 46% center;
   background-size: cover;
-  animation: arrive 850ms 120ms both;
+  animation: arrive 850ms 120ms both, hero-image-float 7s ease-in-out 1s infinite;
 }
 
 .hero__visual::after {
@@ -709,17 +709,21 @@ a:focus-visible {
 
 .product-marquee__item {
   width: 220px;
-  min-height: 104px;
+  height: 116px;
+  min-height: 116px;
+  flex: 0 0 220px;
 }
 
 .product-marquee__item > a,
 .product-marquee__item > div {
   display: flex;
   width: 100%;
-  min-height: 104px;
-  flex-direction: column;
-  align-items: flex-start;
+  height: 100%;
+  min-height: 0;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  gap: 11px;
   padding: 13px 15px;
   border: 1px solid rgba(50, 22, 78, 0.13);
   background: #fffdfa;
@@ -736,7 +740,33 @@ a:focus-visible {
   background: white;
 }
 
-.product-marquee__item span {
+.product-marquee__item-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.product-marquee__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+  background: #fff;
+}
+
+.product-marquee__thumb {
+  display: block;
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.product-marquee__item-copy > span {
   margin-bottom: 5px;
   color: var(--orange);
   font-size: 12px;
@@ -1060,12 +1090,20 @@ a:focus-visible {
 
 .product-card__visual img {
   object-fit: contain;
-  padding: 10px;
+  object-position: center;
+  padding: 4px;
+}
+
+.product-card__image-placeholder {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 45%, #fff 0, #f5f1e8 72%);
 }
 
 .product-card {
   display: flex;
-  min-height: 225px;
+  min-height: 310px;
   height: 100%;
   flex-direction: column;
   align-items: flex-start;
@@ -1096,6 +1134,87 @@ a:focus-visible {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.product-card__details {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding: 13px 0 0;
+  border: 0;
+  background: transparent;
+  color: var(--green);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.product-card__details:hover {
+  color: var(--orange);
+}
+
+.product-details-dialog {
+  width: min(640px, calc(100% - 32px));
+  max-width: none;
+  max-height: min(84dvh, 760px);
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  border: 1px solid rgba(50, 22, 78, 0.18);
+  background: #fffdfa;
+  color: var(--ink);
+  box-shadow: 0 24px 80px rgba(24, 12, 34, 0.3);
+}
+
+.product-details-dialog::backdrop {
+  background: rgba(25, 16, 32, 0.58);
+  backdrop-filter: blur(3px);
+}
+
+.product-details {
+  position: relative;
+  padding: clamp(28px, 6vw, 48px);
+}
+
+.product-details__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink);
+  font-size: 25px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.product-details h2 {
+  max-width: calc(100% - 34px);
+  margin: 0 0 27px;
+  font-family: var(--font-display);
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.product-details h3 {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-size: 16px;
+}
+
+.product-details__description {
+  margin: 0 0 26px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .product-card__description {
@@ -1552,6 +1671,17 @@ a:focus-visible {
   }
 }
 
+@keyframes hero-image-float {
+  0%,
+  100% {
+    background-position: 46% 48%;
+  }
+
+  50% {
+    background-position: 46% 52%;
+  }
+}
+
 @media (max-width: 1050px) {
   .site-width {
     width: min(100% - 52px, 900px);
@@ -1904,7 +2034,12 @@ a:focus-visible {
   .product-marquee__item > a,
   .product-marquee__item > div {
     width: 190px;
-    min-height: 96px;
+  }
+
+  .product-marquee__item {
+    height: 108px;
+    min-height: 108px;
+    flex-basis: 190px;
   }
 
   .product-marquee__group {
@@ -1914,6 +2049,8 @@ a:focus-visible {
 
   .product-marquee__item > a,
   .product-marquee__item > div {
+    height: 100%;
+    min-height: 0;
     padding: 11px 12px;
   }
 

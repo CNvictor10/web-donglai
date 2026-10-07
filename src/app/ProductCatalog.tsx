@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import products from "@/data/products.json";
-import productImages from "@/data/productImages";
+import { getCatalogProducts, type CatalogProduct } from "@/data/catalogProducts";
 import { whatsappLink } from "@/lib/whatsapp";
 
 type CatalogLine = "Todas" | "Ferretería y accesorios" | "Luminarias";
@@ -33,6 +33,16 @@ export default function ProductCatalog({
   const [selectedCategory, setSelectedCategory] = useState("Todas las categorías");
   const [query, setQuery] = useState(initialQuery);
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedProduct, setSelectedProduct] = useState<CatalogProduct | null>(null);
+  const detailsDialogRef = useRef<HTMLDialogElement>(null);
+
+  useEffect(() => {
+    const dialog = detailsDialogRef.current;
+    if (!dialog) return;
+
+    if (selectedProduct && !dialog.open) dialog.showModal();
+    if (!selectedProduct && dialog.open) dialog.close();
+  }, [selectedProduct]);
 
   const availableProducts = products.filter(
     (product) => selectedLine === "Todas" || product.line === selectedLine,
@@ -41,7 +51,7 @@ export default function ProductCatalog({
     new Set(availableProducts.map((product) => product.category)),
   ).sort((first, second) => first.localeCompare(second, "es"));
   const normalizedQuery = normalize(query.trim());
-  const filteredProducts = availableProducts.filter((product) => {
+  const matchingProducts = availableProducts.filter((product) => {
     const matchesCategory =
       selectedCategory === "Todas las categorías" ||
       product.category === selectedCategory;
@@ -53,6 +63,10 @@ export default function ProductCatalog({
 
     return matchesCategory && matchesQuery;
   });
+  const matchingIds = new Set(matchingProducts.map((product) => product.id));
+  const filteredProducts = getCatalogProducts(availableProducts).filter((product) =>
+    product.variants.some((variant) => matchingIds.has(variant.id)),
+  );
   const pageCount = Math.ceil(filteredProducts.length / pageSize);
   const visibleProducts = filteredProducts.slice(
     (currentPage - 1) * pageSize,
@@ -181,7 +195,7 @@ export default function ProductCatalog({
 
       <div className="catalog-results" aria-live="polite">
         <span>
-          Mostrando <strong>{firstVisibleProduct}–{lastVisibleProduct}</strong> de {filteredProducts.length} productos
+          Mostrando <strong>{firstVisibleProduct}–{lastVisibleProduct}</strong> de {filteredProducts.length} referencias
         </span>
         <span>Precios solo por consulta</span>
       </div>
@@ -190,37 +204,31 @@ export default function ProductCatalog({
       {filteredProducts.length > 0 ? (
         <ul className="product-grid">
           {visibleProducts.map((product) => {
-            const image = productImages[product.id];
+            const image = product.image;
 
             return (
               <li key={product.id}>
                 <article className="product-card">
-                  {image && (
-                    <div className="product-card__visual">
+                  <div className="product-card__visual">
+                    {image ? (
                       <Image
                         alt={product.name}
                         fill
                         sizes="(max-width: 720px) 90vw, (max-width: 1050px) 45vw, 30vw"
                         src={image}
                       />
-                    </div>
-                  )}
-                  <p className="product-card__category">
-                    <span>{product.line}</span>
-                    <span>{product.category}</span>
-                  </p>
-                  <h3>{product.name}</h3>
-                  <p className="product-card__description">{product.description}</p>
-                  <a
-                    className="product-card__action"
-                    href={whatsappLink(
-                      `Hola, quiero consultar disponibilidad y cotización para: ${product.name}.`,
+                    ) : (
+                      <span className="product-card__image-placeholder" aria-hidden="true" />
                     )}
-                    rel="noreferrer"
-                    target="_blank"
+                  </div>
+                  <h3>{product.name}</h3>
+                  <button
+                    className="product-card__details"
+                    onClick={() => setSelectedProduct(product)}
+                    type="button"
                   >
-                    Consultar producto <span aria-hidden="true">↗</span>
-                  </a>
+                    Detalles <span aria-hidden="true">↗</span>
+                  </button>
                 </article>
               </li>
             );
@@ -236,6 +244,47 @@ export default function ProductCatalog({
         </div>
       )}
       {renderPagination("bottom")}
+
+      <dialog
+        aria-labelledby="product-details-title"
+        className="product-details-dialog"
+        onClick={(event) => {
+          if (event.target === event.currentTarget) event.currentTarget.close();
+        }}
+        onClose={() => setSelectedProduct(null)}
+        ref={detailsDialogRef}
+      >
+        {selectedProduct && (
+          <div className="product-details">
+            <button
+              aria-label="Cerrar detalles del producto"
+              autoFocus
+              className="product-details__close"
+              onClick={() => detailsDialogRef.current?.close()}
+              type="button"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+            <p className="product-card__category">
+              <span>{selectedProduct.line}</span>
+              <span>{selectedProduct.category}</span>
+            </p>
+            <h2 id="product-details-title">{selectedProduct.name}</h2>
+            <h3>Especificaciones y medidas</h3>
+            <p className="product-details__description">{selectedProduct.description}</p>
+            <a
+              className="button button--accent"
+              href={whatsappLink(
+                `Hola, quiero consultar disponibilidad y cotización para: ${selectedProduct.name}.`,
+              )}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Consultar por WhatsApp <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        )}
+      </dialog>
     </div>
   );
 }
