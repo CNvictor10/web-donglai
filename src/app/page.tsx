@@ -40,6 +40,20 @@ export default function Home() {
               <a className="text-link" href="#nosotros">Conoce nuestra historia <span aria-hidden="true">→</span></a>
             </div>
             <div className="hero__note"><span className="hero__note-dot" /> {products.length} productos · Atención directa</div>
+            <div className="hero__contacts" aria-label="Datos de contacto de Donglai">
+              <span className="hero__contact-item">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3.5h7l4 4v13H7z" /><path d="M14 3.5v4h4M10 12h5M10 16h5" /></svg>
+                RUC 20607749940
+              </span>
+              <a className="hero__contact-item" href="https://maps.app.goo.gl/P2eGNK8NXm6UL3pt5" rel="noreferrer" target="_blank">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" /><circle cx="12" cy="10" r="2.2" /></svg>
+                Villa El Salvador · Cómo llegar <span aria-hidden="true">↗</span>
+              </a>
+              <a className="hero__contact-item" href="mailto:dingfeng.peru@gmail.com">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5" /><path d="m4 7 8 6 8-6" /></svg>
+                dingfeng.peru@gmail.com
+              </a>
+            </div>
           </div>
           <div className="hero__visual" role="img" aria-label="Logo DONGLAI sobre una escena de importación marítima en un puerto de contenedores" />
           <div className="hero__index" aria-hidden="true">DL — 001</div>

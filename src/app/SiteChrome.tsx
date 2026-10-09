@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import seasonalCampaign from "@/data/seasonalCampaign";
 import { whatsappLink } from "@/lib/whatsapp";
+import SeasonalFloat from "./SeasonalFloat";
 
 export function SiteHeader() {
   return (
@@ -95,6 +97,15 @@ export function SiteHeader() {
         </svg>
         <span>Consultar</span>
       </a>
+      {seasonalCampaign.enabled && (
+        <SeasonalFloat
+          accentEmoji={seasonalCampaign.accentEmoji}
+          emoji={seasonalCampaign.emoji}
+          image={seasonalCampaign.image}
+          month={seasonalCampaign.month}
+          title={seasonalCampaign.title}
+        />
+      )}
     </>
   );
 }

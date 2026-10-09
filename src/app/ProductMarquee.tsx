@@ -90,8 +90,8 @@ export default function ProductMarquee() {
         </Link>
       </div>
       <div className="product-marquee__lanes">
-        <ProductTrack label="Ferretería y accesorios" items={hardwareProducts} />
-        <ProductTrack label="Luminarias" items={lightingProducts} reverse />
+        <ProductTrack label="Luminarias" items={lightingProducts} />
+        <ProductTrack label="Ferretería y accesorios" items={hardwareProducts} reverse />
       </div>
       <p className="site-width product-marquee__note">
         {catalogProducts.length} productos en movimiento lento · Selecciona una ficha para verla en el catálogo
