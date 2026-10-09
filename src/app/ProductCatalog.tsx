@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { type FormEvent, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import products from "@/data/products.json";
 import { getCatalogProducts, type CatalogProduct } from "@/data/catalogProducts";
@@ -80,6 +80,28 @@ export default function ProductCatalog({
     selectedLine !== "Todas" ||
     selectedCategory !== "Todas las categorías" ||
     query.length > 0;
+
+  function sendProductInquiry(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!selectedProduct) return;
+
+    const formData = new FormData(event.currentTarget);
+    const customerName = String(formData.get("customerName") ?? "").trim();
+    const customerPhone = String(formData.get("customerPhone") ?? "").trim();
+    const customerCity = String(formData.get("customerCity") ?? "").trim();
+    const customerAddress = String(formData.get("customerAddress") ?? "").trim();
+    const message = [
+      `Hola, soy ${customerName}. Quiero consultar disponibilidad y cotización.`,
+      `Celular: ${customerPhone}`,
+      `Ciudad: ${customerCity}`,
+      `Dirección: ${customerAddress || "No indicada"}`,
+      `Producto a consultar: ${selectedProduct.name}`,
+    ].join("\n");
+    const inquiryWindow = window.open(whatsappLink(message), "_blank");
+
+    if (inquiryWindow) inquiryWindow.opener = null;
+    else window.location.assign(whatsappLink(message));
+  }
 
   function changeLine(line: CatalogLine) {
     setSelectedLine(line);
@@ -272,16 +294,29 @@ export default function ProductCatalog({
             <h2 id="product-details-title">{selectedProduct.name}</h2>
             <h3>Especificaciones y medidas</h3>
             <p className="product-details__description">{selectedProduct.description}</p>
-            <a
-              className="button button--accent"
-              href={whatsappLink(
-                `Hola, quiero consultar disponibilidad y cotización para: ${selectedProduct.name}.`,
-              )}
-              rel="noreferrer"
-              target="_blank"
-            >
-              Consultar por WhatsApp <span aria-hidden="true">↗</span>
-            </a>
+            <form className="product-inquiry-form" onSubmit={sendProductInquiry}>
+              <p className="product-inquiry-form__intro">Déjanos tus datos para atender tu consulta sobre este producto.</p>
+              <label>
+                Nombre completo
+                <input autoComplete="name" maxLength={100} name="customerName" required />
+              </label>
+              <label>
+                Celular o WhatsApp
+                <input autoComplete="tel" inputMode="tel" maxLength={24} name="customerPhone" required type="tel" />
+              </label>
+              <label>
+                Ciudad
+                <input autoComplete="address-level2" maxLength={100} name="customerCity" required />
+              </label>
+              <label>
+                Dirección de entrega <span>(opcional)</span>
+                <input autoComplete="street-address" maxLength={180} name="customerAddress" />
+              </label>
+              <button className="button button--accent" type="submit">
+                Continuar por WhatsApp <span aria-hidden="true">↗</span>
+              </button>
+              <small>WhatsApp abrirá tu mensaje. Pulsa “Enviar” para que el equipo reciba y registre la consulta.</small>
+            </form>
           </div>
         )}
       </dialog>

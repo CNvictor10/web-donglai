@@ -24,7 +24,7 @@ const lines = [
 
 export default function Home() {
   return (
-    <main>
+    <main className="home-page">
       <SiteHeader />
 
       <section className="hero" id="inicio">
@@ -39,7 +39,7 @@ export default function Home() {
               <Link className="button button--accent" href="/catalogo">Ver catálogo <span aria-hidden="true">↗</span></Link>
               <a className="text-link" href="#nosotros">Conoce nuestra historia <span aria-hidden="true">→</span></a>
             </div>
-            <div className="hero__note"><span className="hero__note-dot" /> 269 productos · Atención directa</div>
+            <div className="hero__note"><span className="hero__note-dot" /> {products.length} productos · Atención directa</div>
           </div>
           <div className="hero__visual" role="img" aria-label="Logo DONGLAI sobre una escena de importación marítima en un puerto de contenedores" />
           <div className="hero__index" aria-hidden="true">DL — 001</div>
@@ -79,7 +79,7 @@ export default function Home() {
                   className="line-preview"
                   href={`/catalogo?line=${line.query}`}
                   key={line.query}
-                  style={{ backgroundImage: `linear-gradient(90deg, rgba(50, 22, 78, 0.9), rgba(50, 22, 78, 0.2)), url("${line.image}")` }}
+                  style={{ backgroundImage: `linear-gradient(90deg, rgba(6, 71, 78, 0.9), rgba(6, 71, 78, 0.2)), url("${line.image}")` }}
                 >
                   <span className="line-preview__count">{count} PRODUCTOS</span>
                   <span className="line-preview__content">
@@ -104,11 +104,15 @@ export default function Home() {
           </div>
           <div className="about__copy">
             <p className="eyebrow"><span className="eyebrow__line" /> Familia Donglai</p>
-            <h2>Una familia que impulsa<br />la industria peruana.</h2>
+            <h2>Abastecimiento que impulsa<br />cada proyecto.</h2>
             <div className="about__text">
-              <p><strong>En DONGLAI</strong>, más que una empresa importadora, somos una familia comprometida con el desarrollo, la innovación y el crecimiento de la industria ferretera, la carpintería y la construcción en el Perú. Nacimos con la visión de conectar de forma directa la fabricación internacional con el mercado local, garantizando productos de alto rendimiento, eficiencia energética y durabilidad para cada uno de los proyectos de nuestros clientes.</p>
-              <p>Desde nuestra sede de distribución en Villa El Salvador (Lima), la <strong>Familia Donglai</strong> trabaja con pasión para ofrecer un portafolio integral que abarca desde luminarias de última tecnología —como paneles LED, focos UFO, reflectores y tiras de luz— hasta componentes esenciales de cerrajería y herrajes para muebles, incluyendo bisagras de cierre suave, pistones a gas, correderas telescópicas y tornillería especializada.</p>
-              <p>Nos diferencia nuestro compromiso con la calidad y la atención personalizada. Entendemos las exigencias del mercado técnico y comercial, por lo que respaldamos a cada distribuidor, contratista y maestro especialista con asesoría directa, stock garantizado y cotizaciones transparentes orientadas a optimizar sus costos e inversiones. En la <strong>Familia Donglai</strong>, la confianza de nuestros clientes es nuestro activo más valioso.</p>
+              <p><strong>DONGLAI</strong> conecta fabricantes internacionales con el mercado peruano. Desde Villa El Salvador, Lima, acercamos soluciones para ferretería, carpintería, construcción e iluminación.</p>
+              <p>Acompañamos a distribuidores, contratistas y especialistas con un catálogo organizado y atención directa para encontrar productos, revisar especificaciones y solicitar cotizaciones.</p>
+            </div>
+            <div className="about__highlights" aria-label="DONGLAI en cifras">
+              <div><strong>{products.length}</strong><span>productos para explorar</span></div>
+              <div><strong>2</strong><span>líneas de productos</span></div>
+              <div><strong>Lima</strong><span>atención desde Villa El Salvador</span></div>
             </div>
             <Link className="text-link text-link--dark" href="/catalogo">Explorar el catálogo <span aria-hidden="true">→</span></Link>
             <div className="about__signature"><span className="about__signature-line" /><span>{products.length} productos organizados por rubro</span></div>

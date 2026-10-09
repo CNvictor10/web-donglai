@@ -22,4 +22,8 @@ export const businessContacts = [
     name: "Ana Inga",
     numbers: [{ label: "928 544 513", international: "51928544513" }],
   },
+  {
+    name: "Yu Chen",
+    numbers: [{ label: "+51 935 557 985", international: "51935557985" }],
+  },
 ] as const;
