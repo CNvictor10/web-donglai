@@ -1407,8 +1407,8 @@
     "id": "fer-083",
     "line": "Ferretería y accesorios",
     "category": "Soportes Y Colgadores",
-    "name": "Colgadores Para Ropero",
-    "description": "Colgadores metálicos para tubos de ropero y armarios de toda medida.",
+    "name": "Tubos Ovalados para Clóset",
+    "description": "Tubo ovalado para clóset con soportes de fijación. Consulta las medidas disponibles.",
     "sourceSheet": "FERRETEROS",
     "sourceRow": 83
   },
@@ -1951,24 +1951,6 @@
     "description": "Super glue 502 transparente, adhesión fuerte sin dejar marca visible.",
     "sourceSheet": "FERRETEROS",
     "sourceRow": 147
-  },
-  {
-    "id": "fer-149",
-    "line": "Ferretería y accesorios",
-    "category": "Cerrojos",
-    "name": "Cerrojo Barra Ovalada Galvanizada",
-    "description": "Barra perchero ovalada galvanizada anti-óxido. 240 unidades x caja.",
-    "sourceSheet": "FERRETEROS",
-    "sourceRow": 149
-  },
-  {
-    "id": "fer-150",
-    "line": "Ferretería y accesorios",
-    "category": "Cerrojos",
-    "name": "Cerrojo Hierro Fundido Galvanizado",
-    "description": "Cerrojo hierro fundido galvanizado, alta resistencia a la corrosión.",
-    "sourceSheet": "FERRETEROS",
-    "sourceRow": 150
   },
   {
     "id": "fer-151",

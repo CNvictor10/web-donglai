@@ -44,6 +44,7 @@ const productCatalogGroups: ProductCatalogGroup[] = [
   { title: "Rejilla de ventilación de aluminio", prefix: "", ids: ["fer-169", "fer-170", "fer-171", "fer-172", "fer-173", "fer-174", "fer-175", "fer-176", "fer-177", "fer-178", "fer-179", "fer-180", "fer-181", "fer-182", "fer-183", "fer-184", "fer-185", "fer-186", "fer-187", "fer-188", "fer-189", "fer-190", "fer-191", "fer-192", "fer-193", "fer-194", "fer-195", "fer-196", "fer-197", "fer-198", "fer-199", "fer-200", "fer-201", "fer-202"] },
   { title: "Cerrojo cromado manual", prefix: "Cerrojo Cromado Manual", ids: ["fer-151", "fer-152"] },
   { title: "Cerrojo resorte cromado", prefix: "Cerrojo Resorte Cromado", ids: ["fer-153", "fer-154", "fer-155"] },
+  { title: "Bandeja de acero inoxidable 304", prefix: "", ids: ["fer-204", "fer-205", "fer-206"] },
 ];
 
 export default productCatalogGroups;
